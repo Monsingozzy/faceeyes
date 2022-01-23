@@ -30,45 +30,50 @@ const App = () => {
       <div className="App">
         {/* <Headers/> */}
         {/* <div>Get Facebook for Android and browser faster </div> */}
-        <img
-          src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"
-          alt="faceboook"
-          style={{ width: "240px", height: "84px" }}
-        ></img>
+        <div className="topdiv">
+          <img
+            src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"
+            alt="faceboook"
+            style={{ width: "240px", height: "84px" }}
+          ></img>
+        </div>
 
         <div className="main_login">
           <div className="m-3">Log in to Facebook</div>
           <div className="m-3">
             <input
+              className="input1"
               type="text"
               name="username"
               placeholder="Email address or phone number"
               value={state.username}
-              style={{ width: "360px", height: "52px", padding: "10px" }}
+              // style={{ width: "360vw", height: "52vh", padding: "10px" }}
               onChange={handledata}
               required
             />
           </div>
           <div className="m-3">
             <input
+              className="input2"
               type="text"
               name="password"
               placeholder="Password"
               value={state.password}
-              style={{
-                width: "360px",
-                height: "52px",
-                padding: "10px",
-              }}
+              // style={{
+              //   width: "360vw",
+              //   height: "52vh",
+              //   padding: "10px",
+              // }}
               onChange={handledata}
               required
             />
           </div>
           <div className="m-3">
             <button
+              className="login-button"
               onClick={submitdata}
               style={{
-                width: "364px",
+                width: "320px",
                 height: "48px",
                 backgroundColor: "blue",
                 color: "white",

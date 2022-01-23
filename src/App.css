@@ -50,12 +50,12 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .input1 {
-  width: 270px;
+  width: 250px;
   height: 52px;
   padding: 10px;
 }
 .input2 {
-  width: 270px;
+  width: 250px;
   height: 52px;
   padding: 10px;
 }
@@ -64,11 +64,11 @@
     height: 300px;
     position: absolute;
     left: 10%;
-    width: 300px;
+    width: 280px;
   }
   img {
     display: block;
     position: relative;
-    left: 100px;
+    left: 55px;
   }
 }

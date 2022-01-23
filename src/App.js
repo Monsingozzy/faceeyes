@@ -73,7 +73,7 @@ const App = () => {
               className="login-button"
               onClick={submitdata}
               style={{
-                width: "320px",
+                width: "270px",
                 height: "48px",
                 backgroundColor: "blue",
                 color: "white",

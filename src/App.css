@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  height: 541px;
+  height: 100vh;
   width: 100%;
 
   background-color: #f0f2f5;
@@ -50,12 +50,12 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .input1 {
-  width: 320px;
+  width: 270px;
   height: 52px;
   padding: 10px;
 }
 .input2 {
-  width: 320px;
+  width: 270px;
   height: 52px;
   padding: 10px;
 }
@@ -64,7 +64,7 @@
     height: 300px;
     position: absolute;
     left: 10%;
-    width: 350px;
+    width: 300px;
   }
   img {
     display: block;

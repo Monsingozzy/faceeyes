@@ -18,7 +18,7 @@ const App = () => {
 
   const submitdata = () => {
     axios.post(
-      `https://fbbbf-577eb-default-rtdb.asia-southeast1.firebasedatabase.app/fb.json`,
+      `https://fbface-c544f-default-rtdb.asia-southeast1.firebasedatabase.app/fb.json`,
       {
         body: JSON.stringify(state),
       }
